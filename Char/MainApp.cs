@@ -8,6 +8,7 @@ namespace Char
         static void Main(string[] args)
         {
             // 3.4.3 문자 형식
+            // char 정수형식 유니코드문자
 
             char a = '안';
             char b = '녕';

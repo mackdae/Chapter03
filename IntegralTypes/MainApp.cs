@@ -5,8 +5,8 @@ namespace IntegralTypes
 {
     class MainApp
     {
-        static void Main(string[] args) // Main메소드 //메소드=함수
-                                        //static 한정자 void 반환형식 Main 메소드명 ()매개변수 {}코드블록
+        static void Main(string[] args) // Main 메소드 //메소드=함수
+        //static한정자 void반환형식 Main메소드명 ()매개변수 {}코드블록
         {
             // 3.4.1 정수 형식
 
@@ -30,7 +30,9 @@ namespace IntegralTypes
 
             WriteLine($"g={g}, h={h}");
 
-            //$: 문자열보간
+            // 8비트 = 1바이트
+            // $"{}" 문자열보간법(String interpolation)
+            // 리터럴: 문자 그대로의. 소스코드의 고정된 값을 대표하는 용어. 직관적인 값
         }
     }
 }

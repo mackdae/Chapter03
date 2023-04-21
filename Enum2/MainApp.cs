@@ -18,9 +18,11 @@ namespace Enum2
             WriteLine(result == DialogResult.CONFIRM);
             WriteLine(result == DialogResult.OK);
 
-            //3.7 var형식: 지역변수로만 사용 가능
-            //지역변수의 지역: 메소드 내부의 공간
+            //3.7 var 암시적 형식
+            // var는 필드선언 불가, 지역변수로만 사용가능 (지역: 메소드 내부의 공간)
 
+            // object: 모든 형식의 데이터를 넣을 수 있음
+            // var: 넣은 데이터에 알맞는 형식을 컴파일러가 찾아줌
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Enum
     {
         // 3.5.2 열거형식 - 여러개의 상수
         enum DialogResult { YES, NO, CANCEL, CONFIRM, OK }
-        // DialogResult라는 열거 데이터형식을 만들었다
+        // DialogResult 라는 열거 데이터형식을 만듦
         // 사용예시: DialogResult result = DialogResult.YES;
 
         static void Main(string[] args)
