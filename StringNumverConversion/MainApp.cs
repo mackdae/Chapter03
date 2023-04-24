@@ -27,7 +27,6 @@ namespace StringNumverConversion
             string g = "1.23456";
             float h = float.Parse(g);
             Console.WriteLine(h);
-
         }
     }
 }

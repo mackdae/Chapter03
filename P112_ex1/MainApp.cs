@@ -16,7 +16,6 @@ namespace P112_ex1
             float heightConvert = float.Parse(height);
             Console.Write("사각형의 넓이는 : ");
             Console.WriteLine(widthConvert * heightConvert);
-
             //한줄버전
             Console.WriteLine($"사각형의 넓이는 : {float.Parse(width) * float.Parse(height)}");
 
